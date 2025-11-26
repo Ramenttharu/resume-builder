@@ -6,7 +6,7 @@ const Navbar = () => {
     const user = {name:'john Doe'}
     const navigate = useNavigate()
     const logoutUser = ()=>{
-        navigate = ('/')
+       navigate = ('/')
     }
   return (
     <div className='shadow bg-white'>
